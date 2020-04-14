@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <title>Cadastro Escola</title>
+</head>
+<body>
+  <div class="container" >
+    <a class="links" id="paralogin"></a>
+     
+    <div class="content_esc">      
+      <div id="cadastro_esc">
+        <form method="post" action=""> 
+          <h1>Cadastro Escola</h1> 
+           
+          <p> 
+            <label for="cad_esc">Nome</label>
+            <input id="cad_esc" name="cad_esc" required="required" type="text"/>
+          </p>
+  
+           <p> 
+            <label for="cad_cnpj">CNPJ</label>
+            <input id="cad_cnpj" name="cad_cnpj" required="required" type="text"/>
+          </p>
+          
+          <p> 
+            <label for="cad_esc">Endereço</label>
+            <input id="cad_esc" name="cad_esc" required="required" type="text"/>
+          </p>
+         
+          <p> 
+            <input type="submit" value="Cadastrar"/> 
+          </p>
+           
+          <p class="link">  
+            Já tem conta?
+            <a href="#login">Login </a>
+          </p>
+        </form>
+      </div>
+    </div>
+  </div>  
+</body>
+</html>
